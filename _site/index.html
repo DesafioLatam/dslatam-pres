@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Workshop</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./_assets/custom.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/github.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
+
+# Workshop
+## Visualización de Datos con Python
+
+Ignacio Soto.
+
+</script></section><section  data-markdown><script type="text/template">
+
+## Roadmap
+
+* Introducción al framework de trabajo.
+* Breve exposición del flujo de trabajo en data science.
+* Presentación de los elementos.
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+# ¿Cómo funciona esto?
+### Detallando el flujo
+
+</script></section><section data-markdown><script type="text/template">
+
+## Jupyter 
+
+* Jupyter funciona como un punto intermedio entre el kernel de python y markdown.
+
+* Existen dos modos: Markdown y Code Chunks.
+
+* Existen kernels en múltiples lenguajes, así que vale la pena aprenderlo.
+
+</script></section><section data-markdown><script type="text/template">
+### Inicializarlo es fácil
+```bash
+cd <nuestro_directorio>
+jupyter notebook 
+## Nos debe redirigir a localhost:8888 de forma automática
+```
+</script></section><section data-markdown><script type="text/template">
+
+## Python
+
+* Lenguaje objeto orientado con énfasis a la claridad del código.
+* Ampliamente utilizado por las comunidades científicas y privadas.
+* Cuenta con un amplio catálogo de librerías.
+
+</script></section><section data-markdown><script type="text/template">
+
+## Python y Ruby
+
+__Hermanos separados al nacer__
+
+```python
+#python
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+```
+
+```ruby
+#ruby
+class Person(object)
+    def initialize(self, name)
+        self.name = name
+    end
+end
+```
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+# El flujo de trabajo
+
+</script></section><section data-markdown><script type="text/template">
+### Obtención y preprocesamiento
+
+* Identificar la naturaleza de los datos.
+* Identificar las estructura de las variables
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Enfoque Analítico
+
+* Pasos obligatorios:
+    * Análisis exploratorio.
+    * _Feature engineering._
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Estrategia de modelación
+
+
+|   |Supervisado | No Supervisado |
+|---|------------|----------------|
+|Contínua | Regresión | Dimensionalidad |
+|Discreta | Clasificación | Clustering|
+
+* Para problemas supervisados:
+$$
+y = f(x) \sim \text{Distribución}
+$$
+
+* Para problemas no supervisados:
+$$
+y^{*} = f(\mathbf{X})
+$$
+
+
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+### El ejercicio
+
+* Utilizaremos una base de datos con información sobre propinas de un restaurant.<!-- .element: class="fragment" -->
+
+* La información se contiene en un csv. <!-- .element: class="fragment" -->
+
+* El objetivo es explorar la base mediante dos enfoques. <!-- .element: class="fragment" -->
+
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Análisis exploratorio
+
+* Gráficos $\leadsto$ Simples y bonitos.
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Problema de regresión
+
+<div style="color:tomato">
+
+$$
+y_{i}=\alpha + \beta \mathbf{X^{'}} 
+$$
+</div><!-- .element: class="fragment" -->
+
+
+* _Econometría:_ La regresión es busca la recta de mejor ajuste.
+* _Machine Learning:_ La regresión es un problema de predicción de cantidades.
+
+
+```python
+import pandas as pd
+import numpy as np
+import statsmodels.api as statsmod
+import statsmodels.formula.api as frm
+```
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+## Dudas, preguntas, sugerencias, hatemail
+`ignacio.soto.z[at]gmail.com`
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {"transition":"slide"};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
