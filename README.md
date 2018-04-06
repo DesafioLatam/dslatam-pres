@@ -36,7 +36,7 @@ Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremo
 
 ## ¿Qué contiene este repositorio? 
 
-* [Tookit Jupyter](toolkit_jupyter.md): Instructivos de instalación y flujo de trabajo con Jupyter. La versión `.pdf` puede ser descargada [acá](./toolkit_jupyter.pdf)
+* [Toolkit Jupyter](toolkit_jupyter.md): Instructivos de instalación y flujo de trabajo con Jupyter. La versión `.pdf` puede ser descargada [acá](./toolkit_jupyter.pdf)
 * [tips.csv](./tips.csv/): Base de datos a utilizar en los ejercicios.
 * [toolkit_img](./toolkit_img/): Imágenes insertadas en `markdown_jupyter.md`.
 * `pres`: Presentación del workshop. Abrir [./pres/index.html](./pres/index.html) en un navegador para visualizar.
