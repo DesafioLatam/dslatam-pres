@@ -30,22 +30,24 @@ Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremo
 1. Descargar Anaconda con la versión 3.6 en [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 2. Instalar Anaconda en tu equipo. Los pasos se encuentran detallados en el siguiente gif
 ![Instalando Anaconda](./toolkit_img/installanaconda.gif)
-3. Para generar nuestro primer notebook, abrimos el Terminal y ejecutamos `jupyter notebook`. Aquí el paso a paso: (__Importante:__ Si presentan dificultades en este paso o no logran entenderlo, lleguen un poco antes al workshop y los profesores lo guiarán. No es difícil, solamente algo nuevo para algunos.)
+3. Para generar nuestro primer notebook, abrimos el Terminal y ejecutamos `jupyter notebook`. Aquí el paso a paso: 
+
+>__Importante:__ Si presentan dificultades en esta etapa o no logran entenderlo, lleguen un poco antes al workshop y los profesores los guiarán. No es difícil, solamente algo nuevo para algunos.
 
 - __Para los usuarios de Windows__, el Terminal se llama _Símbolo de Sistema (Command Prompt)_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo Símbolo de sistema. 
-	- Abrir el programa
-	- Primero escribimos y ejecutamos dentro del programa `cd Desktop`. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
+	- Abrir el programa.
+	- Primero escribimos y ejecutamos dentro del terminal el texto `cd Desktop`, como muestra la imagen. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
 	![Shell Windows](./toolkit_img/shell-win.png)
-	- Luego ejecutamos `md ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_ 
+	- Luego ejecutamos `md ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_. 
 	- Desde el mismo programa ahora usamos `cd ds-demo`, esto para cambiarnos a la carpeta recién creada.
-	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`
-- __Para los usuarios de Mac / Linux__, se puede ingresar escribiendo `Terminal` dentro de Spotlight. Para ingresar a Spotlight, presione `cmd + <Espacio>`. 
-	- Abrir el programa
-	- Primero escribimos y ejecutamos dentro del programa `cd Desktop`. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
+	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`.
+- __Para los usuarios de Mac / Linux__, se puede ingresar escribiendo `Terminal` dentro de Spotlight (o Búsqueda en Linux). Para ingresar a Spotlight, presione `cmd + <Espacio>`. 
+	- Abrir el programa.
+	- Primero escribimos y ejecutamos dentro del terminal el texto `cd Desktop`, como muestra la imagen. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
 	![Shell Windows](./toolkit_img/shell-mac.png)
-	- Luego ejecutamos `mkdir ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_ 
+	- Luego ejecutamos `mkdir ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_.
 	- Desde el mismo programa ahora usamos`cd ds-demo`, esto para cambiarnos a la carpeta recién creada.
-	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`
+	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`.
 
 - Los pasos se encuentran detallados en el siguiente gif.
 ![Ocupando Jupyter desde el Terminal](./toolkit_img/dsjupyter.gif)
