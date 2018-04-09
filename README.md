@@ -9,6 +9,8 @@ Como un campo híbrido entre Ciencias de la Computación, Matemática y Estadís
 
 Para este taller utilizaremos __Python__ como nuestro motor de análisis. Desde su irrupción en los 90's, Python se ha establecido como uno de los principales lenguajes de programación utilizado en la industria y la academia para el análisis de datos, dado su simplicidad y amplia gama de utilidades que ofrece al usuario.
 
+![Logo Python](./toolkit_img/python.png)
+
 El objetivo de este taller es realizar un ejercicio práctico donde trabajaremos con una tabla de datos estructurados en un archivo `.csv`. Para ello, nos valeremos de `numpy`, `pandas` y `matplotlib`, las tres librerías escenciales para el análisis, más otras librerías para modelar datos.
 
 Mediante este ejercicio aprenderás a manipular, graficar y analizar datos, sin la necesidad de tener conocimientos previos de Data Science.
@@ -28,13 +30,26 @@ Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremo
 1. Descargar Anaconda con la versión 3.6 en [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 2. Instalar Anaconda en tu equipo. Los pasos se encuentran detallados en el siguiente gif
 ![Instalando Anaconda](./toolkit_img/installanaconda.gif)
-3. Para generar nuestro primer notebook, abrimos el Terminal y ejecutamos `jupyter notebook`. Los pasos se encuentran detallados en el siguiente gif.
+3. Para generar nuestro primer notebook, abrimos el Terminal y ejecutamos `jupyter notebook`. Aquí el paso a paso: (__Importante:__ Si presentan dificultades en este paso o no logran entenderlo, lleguen un poco antes al workshop y los profesores lo guiarán. No es difícil, solamente algo nuevo para algunos.)
 
+- __Para los usuarios de Windows__, el Terminal se llama _Símbolo de Sistema (Command Prompt)_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo Símbolo de sistema. 
+	- Abrir el programa
+	- Primero escribimos y ejecutamos dentro del programa `cd Desktop`. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
+	![Shell Windows](./toolkit_img/shell-win.png)
+	- Luego ejecutamos `md ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_ 
+	- Desde el mismo programa ahora usamos `cd ds-demo`, esto para cambiarnos a la carpeta recién creada.
+	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`
+- __Para los usuarios de Mac / Linux__, se puede ingresar escribiendo `Terminal` dentro de Spotlight. Para ingresar a Spotlight, presione `cmd + <Espacio>`. 
+	- Abrir el programa
+	- Primero escribimos y ejecutamos dentro del programa `cd Desktop`. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
+	![Shell Windows](./toolkit_img/shell-mac.png)
+	- Luego ejecutamos `mkdir ds-demo`, con esto estamos creando una carpeta nueva llamada _ds-demo_ 
+	- Desde el mismo programa ahora usamos`cd ds-demo`, esto para cambiarnos a la carpeta recién creada.
+	- Finalmente, abrimos Jupyter ejecutando `jupyter notebook`
+
+- Los pasos se encuentran detallados en el siguiente gif.
 ![Ocupando Jupyter desde el Terminal](./toolkit_img/dsjupyter.gif)
-
-- Para los usuarios de Windows, el Terminal se llama _Símbolo de Sistema (Command Prompt)_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo Símbolo de sistema.
-- Para los usuarios de Mac, se puede ingresar escribiendo `Terminal` dentro de Spotlight. Para ingresar a Spotlight, presione `cmd + <Espacio>`.
-- __Importante:__ Si presentan dificultades con el terminal o no logran entenderlo, lleguen un poco antes al workshop y los profesores lo guiarán.
+- Si lograron abrir el notebook sin problemas, pueden cerrarlo desde la vista de terminal presionando _ctrl+c_ en dos ocasiones. Luego cierran  Terminal y la ventana del navegador que se abrió.
 
 4. Es necesario que lean la guía de trabajo para entender algunos conceptos previos al curso. Descargue acá la [guía de trabajo](toolkit_jupyter.md)([Versión PDF](toolkit_jupyter.pdf)).
 
