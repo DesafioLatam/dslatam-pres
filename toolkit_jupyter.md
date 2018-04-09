@@ -1,6 +1,5 @@
 ---
-title: Toolkit
-subtitle: Workshop Visualización de Datos con Python
+title: Data Analysis desde Cero con Python
 author: Desafío Latam
 ---
 > El objetivo de este documento es presentar los elementos que utilizaremos para el workshop de visualización de datos. Las herramientas se encuentran contenidas en un sistema de administración llamado `Anaconda`.

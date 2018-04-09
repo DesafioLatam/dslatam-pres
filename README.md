@@ -1,4 +1,4 @@
-# Data Science desde Cero con Python
+# Data Analysis desde Cero con Python
 
 > We're drowning in information and starving for knowledge. - John Naisbitt
 
@@ -34,6 +34,7 @@ Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremo
 
 - Para los usuarios de Windows, el Terminal se llama _Símbolo de Sistema (Command Prompt)_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo Símbolo de sistema.
 - Para los usuarios de Mac, se puede ingresar escribiendo `Terminal` dentro de Spotlight. Para ingresar a Spotlight, presione `cmd + <Espacio>`.
+- __Importante:__ Si presentan dificultades con el terminal o no logran entenderlo, lleguen un poco antes al workshop y los profesores lo guiarán.
 
 4. Es necesario que lean la guía de trabajo para entender algunos conceptos previos al curso. Descargue acá la [guía de trabajo](toolkit_jupyter.md)([Versión PDF](toolkit_jupyter.pdf)).
 
