@@ -14,12 +14,14 @@
         <div class="reveal">
             <div class="slides"><section  data-markdown><script type="text/template">
 
+<img src="./_assets/academia-desafio-latam-large.png" alt=""  class="img-fixture"/><br>
+<br>
+
 # Workshop
-## Visualización de Datos con Python
+## Data Analysis con Python desde cero
 
-Ignacio Soto.
 
-</script></section><section  data-markdown><script type="text/template">
+                </script></section><section  data-markdown><script type="text/template">
 
 ## Roadmap
 
@@ -27,12 +29,12 @@ Ignacio Soto.
 * Breve exposición del flujo de trabajo en data science.
 * Presentación de los elementos.
 
-</script></section><section ><section data-markdown><script type="text/template">
+            </script></section><section ><section data-markdown><script type="text/template">
 
 # ¿Cómo funciona esto?
-### Detallando el flujo
+#### Detallando el flujo
 
-</script></section><section data-markdown><script type="text/template">
+            </script></section><section data-markdown><script type="text/template">
 
 ## Jupyter 
 
@@ -42,14 +44,14 @@ Ignacio Soto.
 
 * Existen kernels en múltiples lenguajes, así que vale la pena aprenderlo.
 
-</script></section><section data-markdown><script type="text/template">
+        </script></section><section data-markdown><script type="text/template">
 ### Inicializarlo es fácil
 ```bash
 cd <nuestro_directorio>
 jupyter notebook 
 ## Nos debe redirigir a localhost:8888 de forma automática
 ```
-</script></section><section data-markdown><script type="text/template">
+    </script></section><section data-markdown><script type="text/template">
 
 ## Python
 
@@ -59,25 +61,12 @@ jupyter notebook
 
 </script></section><section data-markdown><script type="text/template">
 
-## Python y Ruby
+## Markdown 
 
-__Hermanos separados al nacer__
+> Objetivo: permitir que la gente utilice un formato fácil de leer, fácil de escribir y fácil de convertir.
 
-```python
-#python
-class Person(object):
-    def __init__(self, name):
-        self.name = name
-```
 
-```ruby
-#ruby
-class Person(object)
-    def initialize(self, name)
-        self.name = name
-    end
-end
-```
+* Lenguaje de marcas extremadamente flexible que permite la exportación a múltiples formatos (`html`, `doc`, `pdf`).
 
 </script></section></section><section ><section data-markdown><script type="text/template">
 
@@ -165,7 +154,8 @@ import statsmodels.formula.api as frm
 </script></section></section><section  data-markdown><script type="text/template">
 
 ## Dudas, preguntas, sugerencias, hatemail
-`ignacio.soto.z[at]gmail.com`
+* Hablemos después de clase. 
+* También me pueden contactar en: `ignacio.soto.z[at]gmail.com`
 </script></section></div>
         </div>
 
@@ -174,37 +164,37 @@ import statsmodels.formula.api as frm
 
         <script>
             function extend() {
-              var target = {};
-              for (var i = 0; i < arguments.length; i++) {
-                var source = arguments[i];
-                for (var key in source) {
-                  if (source.hasOwnProperty(key)) {
-                    target[key] = source[key];
-                  }
+                var target = {};
+                for (var i = 0; i < arguments.length; i++) {
+                    var source = arguments[i];
+                    for (var key in source) {
+                        if (source.hasOwnProperty(key)) {
+                            target[key] = source[key];
+                        }
+                    }
                 }
-              }
-              return target;
+                return target;
             }
 
             // Optional libraries used to extend on reveal.js
             var deps = [
-              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
-              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-              { src: './plugin/zoom-js/zoom.js', async: true },
-              { src: './plugin/notes/notes.js', async: true },
-              { src: './plugin/math/math.js', async: true }
+                { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+                { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+                { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: './plugin/zoom-js/zoom.js', async: true },
+                { src: './plugin/notes/notes.js', async: true },
+                { src: './plugin/math/math.js', async: true }
             ];
 
             // default options to init reveal.js
             var defaultOptions = {
-              controls: true,
-              progress: true,
-              history: true,
-              center: true,
-              transition: 'default', // none/fade/slide/convex/concave/zoom
-              dependencies: deps
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                transition: 'default', // none/fade/slide/convex/concave/zoom
+                dependencies: deps
             };
 
             // options from URL query string
