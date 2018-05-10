@@ -34,7 +34,7 @@ Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremo
 
 >__Importante:__ Si presentan dificultades en esta etapa o no logran entenderlo, lleguen un poco antes al workshop y los profesores los guiarán. No es difícil, solamente algo nuevo para algunos.
 
-- __Para los usuarios de Windows__, el Terminal se llama _Símbolo de Sistema (Command Prompt)_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo Símbolo de sistema. 
+- __Para los usuarios de Windows__, como Terminal usaremos _Anaconda Prompt_. Éste se puede encontrar mediante el Menú Inicio, posteriormente escribiendo su nombre. 
 	- Abrir el programa.
 	- Primero escribimos y ejecutamos dentro del terminal el texto `cd Desktop`, como muestra la imagen. Con esto nos estamos moviendo al Escritorio de nuestro equipo.
 	![Shell Windows](./toolkit_img/shell-win.png)
