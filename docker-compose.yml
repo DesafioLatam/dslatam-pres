@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  jupyter:
+    build: .
+    container_name: ${PROJ_NAME}_jupyter
+    env_file: .env
+    command: bash -c "jupyter notebook --allow-root --ip=0.0.0.0 --NotebookApp.password='' --NotebookApp.token='' --NotebookApp.disable_check_xsrf='True'"
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8888:8888"
