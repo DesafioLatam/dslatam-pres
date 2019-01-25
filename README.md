@@ -22,12 +22,12 @@ Jupyter Notebook (antes denominado iPython Notebook) es un ambiente de trabajo q
 
 ## Instalación de Herramientas
 
-Para este taller necesitamos instalar Python 3.6 y Jupyter. Para eso utilizaremos Anaconda, un instalador que se preocupará de generar todo lo necesario para nuestra estación de trabajo. Pueden descargar anaconda en el siguiente link [https://www.anaconda.com/download/](https://www.anaconda.com/download/).
+Para este taller necesitamos instalar Python 3.6 o superior y Jupyter. Para eso utilizaremos Anaconda, un instalador que se preocupará de generar todo lo necesario para nuestra estación de trabajo. Pueden descargar anaconda en el siguiente link [https://www.anaconda.com/download/](https://www.anaconda.com/download/).
 
 
 ## Pasos a seguir
 
-1. Descargar Anaconda con la versión 3.6 en [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
+1. Descargar Anaconda con la versión 3.6 o superior en [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 2. Instalar Anaconda en tu equipo. Los pasos se encuentran detallados en el siguiente gif
 ![Instalando Anaconda](./toolkit_img/installanaconda.gif)
 3. Para generar nuestro primer notebook, abrimos el Terminal y ejecutamos `jupyter notebook`. Aquí el paso a paso: 
